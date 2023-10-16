@@ -1,0 +1,156 @@
+:root {
+  --product-white: #fff;
+  --color-red: #c82323;
+  --background-color: #e4f5e5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.hero_section {
+  background-image: url(images/hero-section-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  border-radius: 8px;
+  padding: 32px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.hero_text {
+  color: var(--product-white);
+}
+
+.hero_text h1 {
+  font-size: 42px;
+  margin-bottom: 8px;
+}
+
+.hero_text p {
+  font-size: 1.5rem;
+}
+
+.sale_badge {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  border-radius: 50%;
+  background-color: var(--color-red);
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  color: var(--product-white);
+  text-align: center;
+  font-weight: bold;
+}
+
+.hero_btn {
+  position: absolute;
+  left: 30px;
+  bottom: 28px;
+  padding: 8px 16px;
+  background-color: var(--color-red);
+  color: var(--product-white);
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .hero_section h1 {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sale_badge {
+    display: none;
+  }
+}
+
+.promo_card_1,
+.promo_card_2,
+.promo_card_3 {
+  width: 300px;
+  height: 250px;
+  border-radius: 8px;
+  padding: 16px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.promo_card_1 {
+  background-image: url(images/vysavac.png);
+}
+
+.promo_card_2 {
+  background-image: url(images/mobil.png);
+}
+
+.promo_card_3 {
+  background-image: url(images/clothes.png);
+}
+
+.promo_btn {
+  font-weight: bold;
+  background-color: var(--color-red);
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+  color: var(--product-white);
+  font-weight: bold;
+  border-radius: 15%;
+  padding: 8px 16px;
+  border: none;
+}
+
+.promo_section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.promo_heading {
+  position: absolute;
+  bottom: 60px;
+  left: 10px;
+  color: var(--product-white);
+}
+
+.cards_section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  background-color: var(--background-color);
+  padding: 16px;
+}

@@ -1,0 +1,135 @@
+:root {
+  --product-black: black;
+  --product-lightyellow: #fffacd;
+  --product-green: green;
+  --product-whitesmoke: whitesmoke;
+  --product-red: red;
+  --product-yellow: yellow;
+  --product-white: white;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.product_card_3 {
+  width: 370px;
+  padding: 16px;
+  position: relative;
+  background-color: var(--product-white);
+  border-radius: 8px;
+}
+
+.product_of_the_year_PC3 {
+  background-color: var(--product-yellow);
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 5px 5px 0;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  border: 1px solid black;
+  padding: 3px;
+  display: inline-block;
+}
+
+.type_of_product {
+  padding-top: 40px;
+}
+.discount_badge_PC3 {
+  font-weight: bold;
+  background-color: var(--product-red);
+  border-radius: 50%;
+  font-size: 20px;
+  display: inline-block;
+  width: 60px;
+  height: 55px;
+  line-height: 35px;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  color: var(--product-white);
+}
+
+.product_description_PC3 {
+  font-weight: bold;
+  padding: 10px 0;
+}
+.product_image_container_PC3 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.product_image_container_PC3 img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  height: 200px;
+}
+.product_more_info_PC3 {
+  font-weight: normal;
+  font-style: italic;
+}
+.product_stock_label_PC3 {
+  color: var(--product-green);
+  font-weight: bold;
+  position: absolute;
+  right: 3.5rem;
+  bottom: 14.5rem;
+  font-size: 20px;
+}
+.product_price_label_container_PC3 {
+  position: relative;
+  padding: 15px;
+  border: 1px solid var(--product-black);
+  border-radius: 5px;
+  background-color: #fffacd;
+}
+.next_info {
+  padding-bottom: 20px;
+}
+
+.product_price_PC3 {
+  text-decoration: line-through;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.product_discount_price_PC3 {
+  color: var(--product-green);
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+.financing_container {
+  font-style: italic;
+  padding-top: 10px;
+}
+.add_to_cart_button_PC3 {
+  position: absolute;
+  bottom: 5rem;
+  right: 2rem;
+  color: var(--product-green);
+  font-weight: bold;
+  border: 2px solid var(--product-black);
+  display: inline-block;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: var(--product-lightyellow);
+}
+
+.product_shipping_label_PC3 {
+  border: 1px solid var(--product-black);
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 8px;
+  background-color: var(--product-lightyellow);
+  font-weight: bold;
+  color: var(--product-green);
+}
+.product_discount_price_PC3 {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 5px;
+}

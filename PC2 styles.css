@@ -1,0 +1,136 @@
+:root {
+  --yellow_color: #fffa87;
+  --red_color: #ee1212;
+  --green_color: #32840c;
+  --green_color2: #7fcb5b61;
+  --light_red: #ee121240;
+  --gray_color: #808080;
+  --white_color: #d9d9d9;
+}
+.body {
+  font-family: "Inter", sans-serif;
+}
+.product_card_2 {
+  width: 370px;
+  background-color: var(--product-white);
+  position: relative;
+  padding: 16px;
+  border-radius: 8px;
+}
+.product_more_info_PC2 {
+  text-decoration: underline;
+  color: var(--gray_color);
+}
+.product_info_container_PC2 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.bestseller_badge_PC2 {
+  background-color: var(--yellow_color);
+  border-radius: 0 5px 5px 0;
+  font-weight: bold;
+  padding: 4px 16px;
+  position: absolute;
+  top: 2rem;
+  left: 0rem;
+  font-size: 14px;
+}
+.discount_badge_PC2 {
+  border-radius: 50%;
+  background-color: var(--red_color);
+  color: white;
+  display: inline-block;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-weight: 600;
+  padding: 20px 10px 20px 10px;
+  font-size: 20px;
+  height: 70px;
+  width: 74px;
+  line-height: 33px;
+  text-align: center;
+}
+
+.product_image_container_PC2 {
+  width: 100%;
+  height: 350px;
+  text-align: center;
+}
+
+.product_image_container_PC2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding-top: 2rem;
+}
+
+.product_of_the_year_PC2 {
+  background-color: var(--red_color);
+  color: white;
+  font-weight: bold;
+  padding: 5px 20px 5px 20px;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 0px 5px 5px 0px;
+  position: absolute;
+  top: 4rem;
+  left: 0rem;
+}
+.product_description_PC2 {
+  font-weight: bold;
+  margin: 20px 15px 20px 15px;
+}
+.product_price_label_container_PC2 {
+  display: block;
+  position: relative;
+  padding: 1.5rem;
+  margin: 40px 15px 20px 15px;
+  border-radius: 5px;
+  background-color: var(--light_red);
+}
+.product_price_PC2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.discount_PC2 {
+  font-weight: bold;
+  line-height: 1.5;
+}
+.add_to_cart_button_PC2 {
+  display: inline-block;
+  border: 2px solid black;
+  padding: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 5px;
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+  background-color: var(--white_color);
+}
+.product_card_2 h1 {
+  margin: 20px 15px 20px 15px;
+}
+.post_box {
+  margin: 20px 15px 20px 15px;
+  position: relative;
+  border-radius: 5px;
+  background-color: var(--green_color2);
+  color: var(--green_color);
+}
+.box_info {
+  font-weight: bold;
+  display: inline-block;
+  padding: 20px 10px 20px 10px;
+  font-size: 12px;
+}
+.info_box {
+  text-decoration: underline;
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
